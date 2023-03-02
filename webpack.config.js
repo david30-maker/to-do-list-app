@@ -4,19 +4,19 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     index: './src/index.js',
-  
-  }, 
+
+  },
   devServer: {
     static: './dist',
   },
-   plugins: [
+  plugins: [
     new HtmlWebpackPlugin({
       title: 'Output Management',
       template: './src/index.html',
     }),
   ],
   output: {
-    filename:  '[name].bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
     publicPath: '/',
@@ -36,5 +36,5 @@ module.exports = {
   optimization: {
     runtimeChunk: 'single',
   },
-  mode: "development"
+  mode: 'development',
 };
