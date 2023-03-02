@@ -34,6 +34,8 @@ Check **Live Demo** [here.]()
 
 To get a local copy up and running follow these simple example steps.
 
+- git clone git@github.com:david30-maker/to-do-list-app.git
+
 ### Prerequisites
 
 - A web browser (like Google Chrome, Opera...).
