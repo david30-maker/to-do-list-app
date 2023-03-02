@@ -1,69 +1,87 @@
-<a name="readme-top"></a>
+<a name="readme-top">OkpahIgbo</a>
 
-<div align="center">
+# 📗 Table of Contents
 
-  <img src="src/icons/favicon-180.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-# :green_book: Table of Contents
-
-- [:book: About the Project](#about-project)
+- [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [:rocket: Live Demo](#live-demo)
-- [:computer: Getting Started](#getting-started)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [:busts_in_silhouette: Authors](#authors)
-- [:telescope: Future Features](#future-features)
-- [:handshake: Contributing](#contributing)
-- [:star:️ Show your support](#support)
-- [:pray: Acknowledgements](#acknowledgements)
-- [:question: FAQ](#faq)
-- [:memo: License](#license)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license
 
-# :book: [Todo list app] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-**[todo list app]** in which the user can add new tasks, edit, complete or delete them. The user can also clear all the completed tasks.
-.
+**[your_project__name]** A todo list app in which the user can add new tasks, edit, complete or delete them. The user can also clear all the completed tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Webpack
+- Linters (Lighthouse, Webhint, Stylelint, Eslint)
+
 ### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-    <li><a href="https://webpack.js.org/guides/getting-started/">Webpack</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Fetch_API]**
-- **[Listing]**
+> Describe between 1-3 key features of the application.
+
+- **[list_structure]**
+- **[add_remove_item]**
+- **[add_interactiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :rocket: Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming Soon](https://livedemo.com/)
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :computer: Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -71,64 +89,41 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Create App
-
-   ```sh
-   npm install webpack
-   ```
-   
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
+- cd my-folder
   git clone git@github.com:david30-maker/to-do-list-app.git
-```
 
 ### Install
 
 Install this project with:
 
-
-- Install Node Modules
-
-   ```sh
-   npm install
-   ```
+- modern browser
+- Vscode editor
 
 ### Usage
 
 To run the project, execute the following command:
 
-
-- Start the development server
-
-   ```sh
-   npm run start
-   ```
+- `Live Server`
 
 ### Run tests
 
 To run tests, run the following command:
 
-   ```sh
-   npm run test
-
 ### Deployment
 
-You can deploy this project using:
+To run the project open the downloaded folder (after extraction) then run the "**index.html**" file in your browser.
 
-
-```sh
-npm run deploy
-```
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :busts_in_silhouette: Authors <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-:bust_in_silhouette: **Okpah Igbo**
+👤 **Okpah Igbo**
 
 - GitHub: [@githubhandle](https://github.com/david30-maker)
 - Twitter: [@twitterhandle](https://twitter.com/davidigbo)
@@ -136,35 +131,36 @@ npm run deploy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :telescope: Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[animations]**
-- [ ] **[deployment]**
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Add_interactiveness_]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :handshake: Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/david30-maker/to-do-list-app/issues).
+Feel free to check the [issues page](../../issues/).
+
+Give a ⭐️ if you like this project!!
+
+## ⭐️ Show your support <a name="support"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank:
+
+- Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :star:️ Show your support <a name="support"></a>
-
-If you like this project, kindly star it
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## :pray: Acknowledgments <a name="acknowledgements"></a>
-
-- Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## :memo: License <a name="license"></a>
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
