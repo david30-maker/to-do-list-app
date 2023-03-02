@@ -1,74 +1,168 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# To-Do list
+<div align="center">
 
-<table>
-  <td style="border: 1px solid black;"><img src="src/ss-todo-list.png" alt="To-Do-List" /></td>
-  </table>
+  <img src="src/icons/favicon-180.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-A todo list app in which the user can add new tasks, edit, complete or delete them. The user can also clear all the completed tasks.
+  <h3><b>Microverse README Template</b></h3>
 
-## Requirements
+</div>
 
-Build a Todo list using:
+# :green_book: Table of Contents
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Webpack
-- Linters (Lighthouse, Webhint, Stylelint, Eslint)
+- [:book: About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [:rocket: Live Demo](#live-demo)
+- [:computer: Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [:busts_in_silhouette: Authors](#authors)
+- [:telescope: Future Features](#future-features)
+- [:handshake: Contributing](#contributing)
+- [:star:️ Show your support](#support)
+- [:pray: Acknowledgements](#acknowledgements)
+- [:question: FAQ](#faq)
+- [:memo: License](#license)
 
-## Built With
+# :book: [Todo list app] <a name="about-project"></a>
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Webpack
-- Linters (Lighthouse, Webhint, Stylelint, Eslint)
+**[todo list app]** in which the user can add new tasks, edit, complete or delete them. The user can also clear all the completed tasks.
+.
 
-## Live Demo
+## 🛠 Built With <a name="built-with"></a>
 
-Check **Live Demo** [here.]()
+### Tech Stack <a name="tech-stack"></a>
 
-## Getting Started
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+    <li><a href="https://webpack.js.org/guides/getting-started/">Webpack</a></li>
+  </ul>
+</details>
 
-To get a local copy up and running follow these simple example steps.
+### Key Features <a name="key-features"></a>
 
-- git clone git@github.com:david30-maker/to-do-list-app.git
+- **[Fetch_API]**
+- **[Listing]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :rocket: Live Demo <a name="live-demo"></a>
+
+- [Coming Soon](https://livedemo.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :computer: Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- A web browser (like Google Chrome, Opera...).
-- A code editor (like Atom, VScode...).
+In order to run this project you need:
+
+- Create App
+
+  ```sh
+  npm install webpack
+  ```
 
 ### Setup
 
-To setup the webpage locally: click on "**Code**" (dropdown list) then "**Download ZIP**".
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:david30-maker/to-do-list-app.git
+```
+
+### Install
+
+Install this project with:
+
+- Install Node Modules
+
+  ```sh
+  npm install
+  ```
+
+### Usage
+
+To run the project, execute the following command:
+
+- Start the development server
+
+  ```sh
+  npm run start
+  ```
+
+### Run tests
+
+To run tests, run the following command:
+
+````sh
+npm run test
 
 ### Deployment
 
-To run the project open the downloaded folder (after extraction) then run the "**index.html**" file in your browser.
+You can deploy this project using:
 
-## Authors
 
-👤 **Okpah Igbo**
+```sh
+npm run deploy
+````
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :busts_in_silhouette: Authors <a name="authors"></a>
+
+:bust_in_silhouette: **Okpah Igbo**
 
 - GitHub: [@githubhandle](https://github.com/david30-maker)
 - Twitter: [@twitterhandle](https://twitter.com/davidigbo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/dvid-igbo-464196184/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :telescope: Future Features <a name="future-features"></a>
+
+- [ ] **[animations]**
+- [ ] **[deployment]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :handshake: Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+Feel free to check the [issues page](https://github.com/david30-maker/to-do-list-app/issues).
 
-Give a ⭐️ if you like this project!!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+## :star:️ Show your support <a name="support"></a>
+
+If you like this project, kindly star it
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :pray: Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to code reviewers and to everyone who reviewed the project and made suggestions.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## :memo: License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
