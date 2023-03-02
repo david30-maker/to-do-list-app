@@ -1,19 +1,4 @@
-<a name="readme-top"></a>
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-## Built With
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Webpack
-- Linters (Lighthouse, Webhint, Stylelint, Eslint)
-
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top">OkpahIgbo</a>
 
 # 📗 Table of Contents
 
@@ -35,17 +20,21 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
+- [📝 License](#license
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**[your_project__name]** A todo list app in which the user can add new tasks, edit, complete or delete them. The user can also clear all the completed tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Webpack
+- Linters (Lighthouse, Webhint, Stylelint, Eslint)
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -76,9 +65,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[list_structure]**
+- **[add_remove_item]**
+- **[add_interactiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,13 +93,21 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
+- cd my-folder
+  git clone git@github.com:david30-maker/to-do-list-app.git
+
 ### Install
 
 Install this project with:
 
+- modern browser
+- Vscode editor
+
 ### Usage
 
 To run the project, execute the following command:
+
+- `Live Server`
 
 ### Run tests
 
@@ -126,35 +123,21 @@ To run the project open the downloaded folder (after extraction) then run the "*
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Okpah Igbo**
 
 - GitHub: [@githubhandle](https://github.com/david30-maker)
 - Twitter: [@twitterhandle](https://twitter.com/davidigbo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/dvid-igbo-464196184/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Add_interactiveness_]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -164,43 +147,19 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!!
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank:
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+- Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
