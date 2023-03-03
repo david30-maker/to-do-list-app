@@ -75,7 +75,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://david30-maker.github.io/to-do-list-app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
