@@ -1,15 +1,15 @@
-import ToDo from "./toDo.js";
-import DeleteButton from "./delete-1.png";
+import ToDo from './toDo.js';
+import DeleteButton from './delete-1.png';
 
 // Add items to UI
 export function populateList() {
-  const todoList = document.getElementById("todo-list");
-  todoList.innerHTML = "";
+  const todoList = document.getElementById('todo-list');
+  todoList.innerHTML = '';
 
   ToDo.list.forEach((item) => {
-    const listItem = document.createElement("li");
-    listItem.setAttribute("id", item.index);
-    listItem.classList = "item-container";
+    const listItem = document.createElement('li');
+    listItem.setAttribute('id', item.index);
+    listItem.classList = 'item-container';
 
     listItem.innerHTML = `
     <input class="checkbox" type="checkbox">
@@ -20,27 +20,27 @@ export function populateList() {
 
     todoList.appendChild(listItem);
 
-    const checkbox = listItem.querySelector("input");
-    const text = listItem.querySelector("span");
-    const textInput = listItem.querySelector("textarea");
-    const deleteButton = listItem.querySelector("img");
+    const checkbox = listItem.querySelector('input');
+    const text = listItem.querySelector('span');
+    const textInput = listItem.querySelector('textarea');
+    const deleteButton = listItem.querySelector('img');
 
     // Update
-    checkbox.addEventListener("change", () => {
+    checkbox.addEventListener('change', () => {
       const index = parseInt(listItem.id, 10);
       ToDo.list[index].update();
-      text.classList.toggle("complete");
-      textInput.classList.toggle("complete");
-      localStorage.setItem("todoList", JSON.stringify(ToDo.list));
+      text.classList.toggle('complete');
+      textInput.classList.toggle('complete');
+      localStorage.setItem('todoList', JSON.stringify(ToDo.list));
     });
 
     // Edit functionality
-    text.addEventListener("click", () => {
-      text.style.display = "none";
-      textInput.classList.toggle("edit-item");
+    text.addEventListener('click', () => {
+      text.style.display = 'none';
+      textInput.classList.toggle('edit-item');
     });
 
-    textInput.addEventListener("keydown", (e) => {
+    textInput.addEventListener('keydown', (e) => {
       // Follow value
       text.innerHTML = textInput.value;
 
@@ -49,46 +49,46 @@ export function populateList() {
       ToDo.list[index].description = text.innerHTML;
 
       // Update local storage
-      localStorage.setItem("todoList", JSON.stringify(ToDo.list));
+      localStorage.setItem('todoList', JSON.stringify(ToDo.list));
 
-      if (e.code === "Enter") {
+      if (e.code === 'Enter') {
         // Update UI
-        text.style.display = "block";
-        textInput.classList.toggle("edit-item");
+        text.style.display = 'block';
+        textInput.classList.toggle('edit-item');
       }
     });
 
     // Delete functionality
-    deleteButton.addEventListener("click", () => {
+    deleteButton.addEventListener('click', () => {
       // Update list
       const index = parseInt(listItem.id, 10);
       ToDo.list = ToDo.list.filter((item) => item !== ToDo.list[index]);
       // Update indexes
       ToDo.list.forEach((item, i) => { item.index = i; });
       // Update local storage
-      localStorage.setItem("todoList", JSON.stringify(ToDo.list));
+      localStorage.setItem('todoList', JSON.stringify(ToDo.list));
       // Update UI
       populateList();
     });
 
     if (item.complete) {
       checkbox.checked = true;
-      text.classList = "complete";
+      text.classList = 'complete';
     }
   });
 }
 
 // Add functionality
 export function add(e) {
-  if (e.code === "Enter") {
+  if (e.code === 'Enter') {
     // Create new item
     const newItem = new ToDo(this.value, false);
 
     // Update local storage
-    localStorage.setItem("todoList", JSON.stringify(newItem.getList()));
+    localStorage.setItem('todoList', JSON.stringify(newItem.getList()));
 
     // Update UI
-    this.value = "";
+    this.value = '';
     populateList();
   }
 }
@@ -100,7 +100,7 @@ export function deleteAllCompleted() {
   // Update indexes
   ToDo.list.forEach((item, i) => { item.index = i; });
   // Update local storage
-  localStorage.setItem("todoList", JSON.stringify(ToDo.list));
+  localStorage.setItem('todoList', JSON.stringify(ToDo.list));
   // Update UI
   populateList();
 }

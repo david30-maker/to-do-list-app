@@ -18,5 +18,3 @@ clearButton.addEventListener('click', deleteAllCompleted);
 
 // Populate UI
 populateList();
-
-
